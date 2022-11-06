@@ -1,0 +1,17 @@
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.Business.deps.json
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.Business.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.Business.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.csproj.AssemblyReference.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.AssemblyInfoInputs.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.AssemblyInfo.cs
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.csproj.CoreCompileInputs.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\refint\RabbitMQ.Business.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\ref\RabbitMQ.Business.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.DataAccess.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.Entities.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.DataAccess.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\bin\Debug\net6.0\RabbitMQ.Entities.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Business\obj\Debug\net6.0\RabbitMQ.Business.csproj.CopyComplete

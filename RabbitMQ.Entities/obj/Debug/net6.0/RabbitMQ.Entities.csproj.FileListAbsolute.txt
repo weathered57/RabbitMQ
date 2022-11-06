@@ -1,0 +1,12 @@
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\bin\Debug\net6.0\RabbitMQ.Entities.deps.json
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\bin\Debug\net6.0\RabbitMQ.Entities.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\bin\Debug\net6.0\RabbitMQ.Entities.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.csproj.AssemblyReference.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.AssemblyInfoInputs.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.AssemblyInfo.cs
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.csproj.CoreCompileInputs.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\refint\RabbitMQ.Entities.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\RabbitMQ.Entities.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.Entities\obj\Debug\net6.0\ref\RabbitMQ.Entities.dll

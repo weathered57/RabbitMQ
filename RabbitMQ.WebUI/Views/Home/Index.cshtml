@@ -1,0 +1,23 @@
+﻿@model IEnumerable<RabbitMQ.WebUI.Models.ProductDto>
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="row">
+        <p style="text-align:center">Products</p>
+        @foreach (var item in Model)
+        {
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Description</p>
+                        <p class="card-text">@item.Cost</p>
+                        <a href="/Order/Index/@item.Id" class="btn btn-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

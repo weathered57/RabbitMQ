@@ -1,0 +1,15 @@
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\bin\Debug\net6.0\RabbitMQ.DataAccess.deps.json
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\bin\Debug\net6.0\RabbitMQ.DataAccess.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\bin\Debug\net6.0\RabbitMQ.DataAccess.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\bin\Debug\net6.0\RabbitMQ.Entities.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\bin\Debug\net6.0\RabbitMQ.Entities.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.csproj.AssemblyReference.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.AssemblyInfoInputs.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.AssemblyInfo.cs
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.csproj.CopyComplete
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\refint\RabbitMQ.DataAccess.dll
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\RabbitMQ.DataAccess.pdb
+C:\Users\anil\Desktop\RabbitMQ\RabbitMQ.DataAccess\obj\Debug\net6.0\ref\RabbitMQ.DataAccess.dll

@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Consumer\\RabbitMQ.Consumer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Consumer\\RabbitMQ.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Consumer\\RabbitMQ.Consumer.csproj",
+        "projectName": "RabbitMQ.Consumer",
+        "projectPath": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Consumer\\RabbitMQ.Consumer.csproj",
+        "packagesPath": "C:\\Users\\anil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Entities\\RabbitMQ.Entities.csproj": {
+                "projectPath": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Entities\\RabbitMQ.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Entities\\RabbitMQ.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Entities\\RabbitMQ.Entities.csproj",
+        "projectName": "RabbitMQ.Entities",
+        "projectPath": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Entities\\RabbitMQ.Entities.csproj",
+        "packagesPath": "C:\\Users\\anil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anil\\Desktop\\RabbitMQ\\RabbitMQ.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
