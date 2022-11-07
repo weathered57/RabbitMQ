@@ -23,31 +23,46 @@ namespace RabbitMQ.WebUI.Controllers
             _iOrderItemsService = iOrderItemsService;
             _iOrderDetailsService = iOrderDetailsService;
         }
+
         public async Task<IActionResult> Index(int id)
         {
-            var lastDetail = "";
-            var orderDetailsList = _iOrderDetailsService.GetList().Data;
-            if (orderDetailsList.Count > 0)
-                 lastDetail = orderDetailsList.OrderByDescending(x => x.Id).First().OrderNumber;
-            var product = _iProductService.GetById(id).Data;
-
-            var orderDetail = _iOrderDetailsService.Add(new OrderDetails() { OrderNumber = orderDetailsList.Count == 0 ? "202200001" : (int.Parse(lastDetail) + 1).ToString(), CreatedDate = DateTime.Now });
-
-            _iOrderItemsService.Add(new OrderItems() { ProductId = product.Id, OrderId = orderDetail.Data.Id,CreatedDate=DateTime.Now });
-
-            OrderProducts products = new OrderProducts();
-            products.Product.Add(product);
-            products.Quantity = 1;
-
-            await _publishEndpoint.Publish<OrderDetail>(new
+            try
             {
-                OrderNumber = orderDetail.Data.OrderNumber,
-                OrderDatetime = DateTime.Now,
-                Products = products
+                var lastDetail = "";
+                var orderDetailsList = _iOrderDetailsService.GetList().Data;
+                if (orderDetailsList.Count > 0)
+                    lastDetail = orderDetailsList.OrderByDescending(x => x.Id).First().OrderNumber;
+                var product = _iProductService.GetById(id).Data;
 
-            });
+                var orderDetail = _iOrderDetailsService.Add(new OrderDetails() { OrderNumber = orderDetailsList.Count == 0 ? "202200001" : (int.Parse(lastDetail) + 1).ToString(), CreatedDate = DateTime.Now });
 
-            return View();
+                if (orderDetail.Success)
+                    _iOrderItemsService.Add(new OrderItems() { ProductId = product.Id, OrderId = orderDetail.Data.Id, CreatedDate = DateTime.Now });
+
+                OrderProducts products = new OrderProducts();
+                products.Product.Add(product);
+                products.Quantity = 1;
+
+                await _publishEndpoint.Publish<OrderDetail>(new
+                {
+                    OrderNumber = orderDetail.Data.OrderNumber,
+                    OrderDatetime = DateTime.Now,
+                    Products = products
+
+                });
+
+                ViewBag.message = "Sipariş başarılı olarak oluşturuldu.";
+                ViewBag.color = "#0fad00";
+                ViewBag.orderNumber = orderDetail.Data.OrderNumber;
+                return View();
+            }
+            catch (Exception)
+            {
+                ViewBag.message = "Sipariş oluşturken hata oluştu.";
+                ViewBag.color = "#FF0000";
+                ViewBag.orderNumber = "";
+                return View();
+            }
         }
     }
 }
